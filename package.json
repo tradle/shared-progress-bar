@@ -1,0 +1,25 @@
+{
+  "name": "@tradle/shared-progress-bar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "for when you need a single progress bar for multiple concurrent tasks",
+  "repository": "https://github.com/tradle/shared-progress-bar.git",
+  "author": "Mark Vayngrib <mark@tradle.io>",
+  "license": "MIT",
+  "dependencies": {
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "node test",
+    "lint": "eslint --quiet --ignore-path .gitignore ."
+  },
+  "keywords": [
+    "progress-bar",
+    "shared-progress-bar",
+    "shared-queue"
+  ]
+}
